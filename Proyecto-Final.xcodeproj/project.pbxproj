@@ -13,6 +13,7 @@
 		3DD7E4E728C793B7000BA768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E4E528C793B7000BA768 /* Main.storyboard */; };
 		3DD7E4E928C793C6000BA768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E4E828C793C6000BA768 /* Assets.xcassets */; };
 		3DD7E4EC28C793C7000BA768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E4EA28C793C7000BA768 /* LaunchScreen.storyboard */; };
+		3DD7E4F428C79540000BA768 /* Cute Notes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E4F328C79540000BA768 /* Cute Notes.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3DD7E4E828C793C6000BA768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD7E4EB28C793C7000BA768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD7E4ED28C793C7000BA768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD7E4F328C79540000BA768 /* Cute Notes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cute Notes.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3DD7E4E128C793B7000BA768 /* SceneDelegate.swift */,
 				3DD7E4E328C793B7000BA768 /* ViewController.swift */,
 				3DD7E4E528C793B7000BA768 /* Main.storyboard */,
+				3DD7E4F328C79540000BA768 /* Cute Notes.ttf */,
 				3DD7E4E828C793C6000BA768 /* Assets.xcassets */,
 				3DD7E4EA28C793C7000BA768 /* LaunchScreen.storyboard */,
 				3DD7E4ED28C793C7000BA768 /* Info.plist */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD7E4F428C79540000BA768 /* Cute Notes.ttf in Resources */,
 				3DD7E4EC28C793C7000BA768 /* LaunchScreen.storyboard in Resources */,
 				3DD7E4E928C793C6000BA768 /* Assets.xcassets in Resources */,
 				3DD7E4E728C793B7000BA768 /* Main.storyboard in Resources */,
