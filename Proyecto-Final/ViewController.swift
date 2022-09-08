@@ -7,13 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var lblElementoActivo: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    
+    @IBAction func doTap4(_ sender: Any) {lblElementoActivo.text = "One"
+    }
+    
 
 
 }
