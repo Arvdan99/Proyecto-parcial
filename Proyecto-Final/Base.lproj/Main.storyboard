@@ -26,13 +26,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mNr-W6-nwC" userLabel="Principal">
                                 <rect key="frame" x="30" y="44" width="354" height="306"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iNy-xA-OeQ" userLabel="1">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iNy-xA-OeQ" userLabel="1">
                                 <rect key="frame" x="237" y="454.66666666666674" width="147" height="148"/>
                                 <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="rH9-zv-98N" appends="YES" id="BwS-Bx-jrA"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4a4-Ry-GYN" userLabel="4">
                                 <rect key="frame" x="30" y="456.33333333333331" width="147" height="144.66666666666669"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="BOn-sM-ufn" appends="YES" id="FQp-S3-RYb"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cnh-ax-jRh">
                                 <rect key="frame" x="106.66666666666669" y="379.33333333333331" width="201" height="48"/>
@@ -40,13 +48,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LRQ-Vz-bZG" userLabel="3">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LRQ-Vz-bZG" userLabel="3">
                                 <rect key="frame" x="237" y="647.33333333333337" width="147" height="148"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gHr-6i-oWM" appends="YES" id="3J6-fP-oX4"/>
+                                </connections>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FpF-1H-T4u" userLabel="2">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FpF-1H-T4u" userLabel="2">
                                 <rect key="frame" x="30" y="646" width="147" height="150.66666666666663"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="wcj-LQ-cbo" appends="YES" id="2Wn-OW-BaF"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -216,11 +232,12 @@
                                 <exclude reference="hGu-NR-ARb"/>
                             </mask>
                         </variation>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="be3-u8-KWW" appends="YES" id="8cs-o5-bdC"/>
-                        </connections>
                     </view>
                     <connections>
+                        <outlet property="imgUno" destination="iNy-xA-OeQ" id="IHc-W8-Dv2"/>
+                        <outlet property="imgcuatro" destination="4a4-Ry-GYN" id="db1-RG-FTO"/>
+                        <outlet property="imgdiez" destination="LRQ-Vz-bZG" id="EbM-pK-qCW"/>
+                        <outlet property="imgsiete" destination="FpF-1H-T4u" id="37S-Vs-I6r"/>
                         <outlet property="lblElementoActivo" destination="Cnh-ax-jRh" id="LdQ-TO-SZW"/>
                     </connections>
                 </viewController>
@@ -231,11 +248,22 @@
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <viewLayoutGuide key="safeArea" id="orH-mZ-afJ"/>
                 </view>
-                <tapGestureRecognizer id="be3-u8-KWW" userLabel="Tap4">
+                <tapGestureRecognizer id="rH9-zv-98N" userLabel="Tap1">
                     <connections>
-                        <action selector="doTap4:" destination="BYZ-38-t0r" id="nMO-r7-401"/>
+                        <action selector="doTap1:" destination="BYZ-38-t0r" id="V4f-j7-CkN"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="wcj-LQ-cbo" userLabel="Tap2">
+                    <connections>
+                        <action selector="doTap2:" destination="BYZ-38-t0r" id="NgL-G0-cEr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="gHr-6i-oWM" userLabel="Tap3">
+                    <connections>
+                        <action selector="doTap3:" destination="BYZ-38-t0r" id="n0z-YK-99d"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="BOn-sM-ufn" userLabel="Tap4"/>
             </objects>
             <point key="canvasLocation" x="129.91071428571428" y="137.68115942028987"/>
         </scene>
